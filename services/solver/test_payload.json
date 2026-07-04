@@ -1,0 +1,49 @@
+{
+  "job_id": "00000000-0000-0000-0000-000000000000",
+  "week_start_date": "2026-07-06",
+  "employees": [
+    { "id": "emp_manager_01", "role": "manager", "max_hours_per_week": 40.0 },
+    { "id": "emp_senior_02", "role": "senior_staff", "max_hours_per_week": 40.0 },
+    { "id": "emp_junior_03", "role": "junior_staff", "max_hours_per_week": 32.0 },
+    { "id": "emp_junior_04", "role": "junior_staff", "max_hours_per_week": 24.0 }
+  ],
+  "constraints": [
+    {
+      "employee_id": "emp_junior_03",
+      "day_of_week": 0,
+      "shift_index": 2,
+      "is_hard_constraint": true,
+      "preference_weight": 0
+    },
+    {
+      "employee_id": "emp_junior_04",
+      "day_of_week": 1,
+      "shift_index": 0,
+      "is_hard_constraint": false,
+      "preference_weight": 9
+    }
+  ],
+  "requirements": [
+    { "day_of_week": 0, "shift_index": 0, "min_staff_count": 1, "min_senior_count": 0, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 0, "shift_index": 1, "min_staff_count": 1, "min_senior_count": 0, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 0, "shift_index": 2, "min_staff_count": 1, "min_senior_count": 1, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 1, "shift_index": 0, "min_staff_count": 2, "min_senior_count": 0, "subordinate_per_senior_ratio": 2 },
+    { "day_of_week": 1, "shift_index": 1, "min_staff_count": 1, "min_senior_count": 0, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 1, "shift_index": 2, "min_staff_count": 1, "min_senior_count": 1, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 2, "shift_index": 0, "min_staff_count": 1, "min_senior_count": 0, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 2, "shift_index": 1, "min_staff_count": 1, "min_senior_count": 0, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 2, "shift_index": 2, "min_staff_count": 1, "min_senior_count": 1, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 3, "shift_index": 0, "min_staff_count": 1, "min_senior_count": 0, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 3, "shift_index": 1, "min_staff_count": 1, "min_senior_count": 0, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 3, "shift_index": 2, "min_staff_count": 1, "min_senior_count": 1, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 4, "shift_index": 0, "min_staff_count": 1, "min_senior_count": 0, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 4, "shift_index": 1, "min_staff_count": 1, "min_senior_count": 0, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 4, "shift_index": 2, "min_staff_count": 1, "min_senior_count": 1, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 5, "shift_index": 0, "min_staff_count": 1, "min_senior_count": 0, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 5, "shift_index": 1, "min_staff_count": 1, "min_senior_count": 0, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 5, "shift_index": 2, "min_staff_count": 1, "min_senior_count": 1, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 6, "shift_index": 0, "min_staff_count": 1, "min_senior_count": 0, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 6, "shift_index": 1, "min_staff_count": 1, "min_senior_count": 0, "subordinate_per_senior_ratio": null },
+    { "day_of_week": 6, "shift_index": 2, "min_staff_count": 1, "min_senior_count": 1, "subordinate_per_senior_ratio": null }
+  ]
+}
