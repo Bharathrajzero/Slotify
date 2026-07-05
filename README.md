@@ -1,6 +1,10 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=9C86FF&center=true&vCenter=true&width=800&height=100&lines=Slotify;Enterprise+Shift-Scheduler;%26+Conflict+Resolver" alt="Slotify Header Animation" />
+<h1 align="center" style="font-family: 'Fira Code', monospace; color: #9C86FF; font-weight: 700; margin-bottom: 0;">
+  Slotify
+</h1>
+<p align="center" style="font-family: 'Fira Code', monospace; color: #666666; font-size: 18px; margin-top: 4px;">
+  Enterprise Shift-Scheduler & Conflict Resolver
 </p>
+
 <p align="center">
   <strong>An enterprise-grade, full-stack workforce scheduling platform powered by a Constraint-Satisfaction Problem (CSP) optimization engine.</strong>
 </p>
