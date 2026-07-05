@@ -1,4 +1,4 @@
-# 🌌 Slotify — Enterprise Shift-Scheduler & Conflict Resolver
+# Slotify-Enterprise Shift-Scheduler & Conflict Resolver
 
 <!-- Dynamic Terminal Typing Animation -->
 <p align="center">
@@ -18,7 +18,7 @@
 
 ---
 
-## 🎭 Project Showcase
+## Project Showcase
 
 <details open>
   <summary>📸 Expand / Collapse App Screenshots</summary>
@@ -39,7 +39,7 @@
 
 ---
 
-## 🏗️ Architecture & Tech Stack
+## Architecture & Tech Stack
 
 Slotify is structured as a high-performance monorepo utilizing decoupled services for the frontend workspace and the high-compute mathematical solver engine.
 
@@ -57,7 +57,7 @@ Slotify/
 │       └── main.py                 # FastAPI operational HTTP wrapper
 └── supabase/                       # Production PostgreSQL migrations & RLS policy rules
 
-### 🛠️ Core Technology Matrix
+### Core Technology Matrix
 
 <p align="left">
   <a href="https://skillicons.dev">
@@ -76,11 +76,11 @@ Slotify/
 
 ---
 
-## ⚡ Mathematical Constraint Matrix
+## Mathematical Constraint Matrix
 
 The CP-SAT solver goes beyond heuristic guessing; it mathematically enforces physical and legal bounds while optimizing for employee satisfaction parameters.
 
-### 🔒 Hard Constraints (Strict Compliance)
+### Hard Constraints (Strict Compliance)
 > Mandatory restrictions that cannot be breached. The engine guarantees 100% adherence.
 
 *   **Single Shift Allocation Limit:** Employees are physically locked to a maximum of one shift per 24-hour cycle to protect worker health.
@@ -88,7 +88,7 @@ The CP-SAT solver goes beyond heuristic guessing; it mathematically enforces phy
 *   **Hard Availability Blackouts:** Structural assurance that explicit employee blackout dates are strictly respected.
 *   **Weekly Labor Hour Caps:** Strict validation ensures no employee shifts push them past their configured weekly maximum hours cap.
 
-### 📈 Soft Constraints & Objectives (Optimization Targets)
+### Soft Constraints & Objectives (Optimization Targets)
 > Mathematical weights shifted by the solver to approach an optimal target score.
 
 *   **Soft Capacity Slacks:** Features an elastic slack variable layer. If a labor deficit occurs, the engine dynamically isolates empty slots instead of experiencing an application crash, returning a `FEASIBLE` layout.
@@ -98,7 +98,7 @@ The CP-SAT solver goes beyond heuristic guessing; it mathematically enforces phy
 
 ---
 
-## 🚀 Getting Started (Local Development)
+## Getting Started (Local Development)
 
 ### System Prerequisites
 *   **Node.js** $\ge$ 18.18
@@ -125,7 +125,7 @@ python scheduler_daemon.py
 (Optional) Start the independent FastAPI HTTP gateway for programmatic endpoints:
 uvicorn main:app --reload --port 8000
 
-🔐 Local Access Matrix
+Local Access Matrix
 Authentication runs via a secure passwordless email session system for rapid local testing and credential verification:
 | Seeded User Identity | System Access Level | Target Redirect Endpoint | Access Permissions |
 |---|---|---|---|
@@ -136,7 +136,7 @@ Authentication runs via a secure passwordless email session system for rapid loc
 > [!NOTE]
 > /dashboard/* routes are heavily protected by middleware. Any non-manager session is rejected and seamlessly routed back to their matching personal user space. /schedule/[id] verifies that token parameters match the request query. Employees are barred from viewing other team members' portals.
 > 
-🌐 Production Transition (Supabase Deployments)
+Production Transition (Supabase Deployments)
 Migrating the application from a local SQLite instance to a production cloud architecture takes just a few steps:
  * Deploy Schemas: Execute the structured data tracking tables on your Supabase cluster using the migration utility:
    supabase db push
@@ -148,7 +148,7 @@ SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
 
  * Switch Data Layer Hooks: Swap the imports inside your Server Actions (src/app/actions/jobs.ts, schedule.ts, employees.ts) from @/lib/db/client to use the server-side Supabase client utility wrapper @/lib/supabase/server.
  * Daemon Launch: Pass your Supabase environment connection strings to scheduler_daemon.py to seamlessly decouple the engine from SQLite and listen to your live production cloud queue instead.
-📝 License
+License
 Distributed under the terms of the MIT License. See LICENSE for details.
 <p align="center">
 Developed with 💜 by <strong>Bharath Raj</strong>
@@ -175,7 +175,7 @@ Developed with 💜 by <strong>Bharath Raj</strong>
 <img width="1920" height="1079" alt="35" src="https://github.com/user-attachments/assets/fc79d019-ec56-46e4-abf4-9dab7c726dd3" />
 
 ---
-## 🏗️ Architecture & Tech Stack
+## Architecture & Tech Stack
 
 The application is structured as a high-performance monorepo utilizing decoupled services for the frontend workspace and the high-compute mathematical solver.
 
@@ -208,18 +208,18 @@ Slotify/
 
 ---
 
-## ⚡ Mathematical Constraint Matrix
+## Mathematical Constraint Matrix
 
 The CP-SAT solver doesn't just guess schedules; it mathematically enforces physical and legal bounds while optimizing for employee preferences:
 
-### 🔒 Hard Constraints (Strict Compliance)
+### Hard Constraints (Strict Compliance)
 
 * **Single Shift Allocation Limit:** Employees are physically locked to a maximum of one shift per 24-hour cycle to protect worker health.
 * **Ergonomic Rest Windows:** Restrictive protection against back-to-back scheduling (e.g., a Night shift worker cannot be scheduled for the following day's Morning shift).
 * **Hard Availability Blackouts:** Structural assurance that explicit employee blackout dates are strictly respected.
 * **Weekly Labor Hour Caps:** Strict validation ensures no employee shifts push them past their configured weekly maximum hours cap.
 
-### 📈 Soft Constraints & Objectives (Optimization Targets)
+### Soft Constraints & Objectives (Optimization Targets)
 
 * **Soft Capacity Slacks:** Features an elastic slack variable layer. If a labor deficit occurs, the engine dynamically isolates empty slots instead of experiencing an application crash, returning a `FEASIBLE` layout.
 * **Preference Score Maximization:** Calculates and scales weight distributions (from -10 to +10) based on worker sentiment targets to optimize staff retention.
@@ -228,7 +228,7 @@ The CP-SAT solver doesn't just guess schedules; it mathematically enforces physi
 
 ---
 
-## 🚀 Getting Started (Local Development)
+## Getting Started (Local Development)
 
 ### Prerequisites
 
@@ -282,7 +282,7 @@ uvicorn main:app --reload --port 8000
 
 ---
 
-## 🔐 Local Access Matrix
+## Local Access Matrix
 
 Authentication runs via a secure passwordless email session system for rapid local testing:
 
@@ -300,7 +300,7 @@ Authentication runs via a secure passwordless email session system for rapid loc
 
 ---
 
-## 🌐 Production Transition (Supabase Deployments)
+## Production Transition (Supabase Deployments)
 
 Migrating the application from a local SQLite instance to a production cloud architecture takes just a few steps:
 
@@ -325,7 +325,7 @@ SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
 
 ---
 
-## 📝 License
+## License
 
 Distributed under the terms of the MIT License. See `LICENSE` for details.
 
