@@ -183,6 +183,20 @@ SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
 
 ---
 
+---
+
+## Author
+
+**Bharath Raj**
+* **GitHub:** [github.com/bharathrajzero](https://github.com/bharathrajzero)
+* **LinkedIn:** [linkedin.com/in/bharathrajzero](https://linkedin.com)
+
+---
+
 ## License
 
 Distributed under the terms of the MIT License. See `LICENSE` for details.
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/type=waving&color=gradient&customColorList=10&height=80&section=footer" width="100%" alt="Wave Footer" />
+</p>
