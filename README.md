@@ -1,25 +1,6 @@
 <p align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 130" width="100%" max-width="800" style="background: transparent;">
-    <text x="50%" y="65" 
-          text-anchor="middle" 
-          fill="#9C86FF" 
-          font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" 
-          font-weight="900" 
-          font-size="64" 
-          letter-spacing="-0.05em">
-      SLOTIFY
-    </text>
-    
-    <text x="50%" y="110" 
-          text-anchor="middle" 
-          fill="#888888" 
-          font-family="'Fira Code', 'Courier New', Courier, monospace" 
-          font-weight="600" 
-          font-size="18" 
-          letter-spacing="0.15em">
-      ENTERPRISE SHIFT-SCHEDULER & CONFLICT RESOLVER
-    </text>
-  </svg>
+  <ins><h1><strong>S L O T I F Y</strong></h1></ins>
+  <code><strong>ENTERPRISE SHIFT-SCHEDULER & CONFLICT RESOLVER</strong></code>
 </p>
 
 <p align="center">
