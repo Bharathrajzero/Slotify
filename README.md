@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=000000&center=true&vCenter=true&width=800&height=60&lines=Slotify;Shift-Scheduler+%26+Conflict+Resolver" alt="Slotify Header Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=9C86FF&center=true&vCenter=true&width=800&height=100&lines=Slotify;Enterprise+Shift-Scheduler;%26+Conflict+Resolver" alt="Slotify Header Animation" />
 </p>
 <p align="center">
   <strong>An enterprise-grade, full-stack workforce scheduling platform powered by a Constraint-Satisfaction Problem (CSP) optimization engine.</strong>
