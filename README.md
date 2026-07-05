@@ -1,5 +1,5 @@
+<h1 align="center"><strong>S L O T I F Y</strong></h1>
 <p align="center">
-  <ins><h1><strong>S L O T I F Y</strong></h1></ins>
   <code><strong>ENTERPRISE SHIFT-SCHEDULER & CONFLICT RESOLVER</strong></code>
 </p>
 
