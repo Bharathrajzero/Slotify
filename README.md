@@ -24,16 +24,16 @@
   <summary>📸 Expand / Collapse App Screenshots</summary>
   <br/>
   <p align="center">
-    <img width="48%" alt="Dashboard Overview" src="https://github.com/user-attachments/assets/baac6d9d-67e1-4042-9bce-66b09cc28895" style="border-radius: 8px; margin: 1%;" />
-    <img width="48%" alt="Roster Grid View" src="https://github.com/user-attachments/assets/9dca3a87-d6a7-4611-bd3c-0cf333f250d6" style="border-radius: 8px; margin: 1%;" />
+    <img width="100%" alt="Dashboard Overview" src="https://github.com/user-attachments/assets/baac6d9d-67e1-4042-9bce-66b09cc28895" style="border-radius: 8px; margin: 1%;" />
+    <img width="100%" alt="Roster Grid View" src="https://github.com/user-attachments/assets/9dca3a87-d6a7-4611-bd3c-0cf333f250d6" style="border-radius: 8px; margin: 1%;" />
   </p>
   <p align="center">
-    <img width="48%" alt="Solver Configuration" src="https://github.com/user-attachments/assets/36cfc682-abd0-4cd2-96ae-2d69ba3e49da" style="border-radius: 8px; margin: 1%;" />
-    <img width="48%" alt="Compliance Diagnostics" src="https://github.com/user-attachments/assets/59abbb79-3a55-4900-886c-5784edbce1a3" style="border-radius: 8px; margin: 1%;" />
+    <img width="100%" alt="Solver Configuration" src="https://github.com/user-attachments/assets/36cfc682-abd0-4cd2-96ae-2d69ba3e49da" style="border-radius: 8px; margin: 1%;" />
+    <img width="100%" alt="Compliance Diagnostics" src="https://github.com/user-attachments/assets/59abbb79-3a55-4900-886c-5784edbce1a3" style="border-radius: 8px; margin: 1%;" />
   </p>
   <p align="center">
-    <img width="48%" alt="Employee Workspace" src="https://github.com/user-attachments/assets/7ac9247f-ce7f-49c4-808d-c42b0dc8324e" style="border-radius: 8px; margin: 1%;" />
-    <img width="48%" alt="Roster Generation Engine" src="https://github.com/user-attachments/assets/fc79d019-ec56-46e4-abf4-9dab7c726dd3" style="border-radius: 8px; margin: 1%;" />
+    <img width="100%" alt="Employee Workspace" src="https://github.com/user-attachments/assets/7ac9247f-ce7f-49c4-808d-c42b0dc8324e" style="border-radius: 8px; margin: 1%;" />
+    <img width="100%" alt="Roster Generation Engine" src="https://github.com/user-attachments/assets/fc79d019-ec56-46e4-abf4-9dab7c726dd3" style="border-radius: 8px; margin: 1%;" />
   </p>
 </details>
 
