@@ -192,4 +192,4 @@ SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
 
 ## License
 
-Distributed under the terms of the MIT License. See `LICENSE` for details.
+This project is licensed under the MIT License © 2026 Bharath Raj, AlphaGroup .
