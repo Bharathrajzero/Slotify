@@ -1,8 +1,4 @@
 # Slotify `Enterprise`
-> **Automated Workforce Scheduling Engine** | High-Performance Constraint-Satisfaction Solver (CSP)
-
----
-
 <p align="center">
   <strong>An enterprise-grade, full-stack workforce scheduling platform powered by a Constraint-Satisfaction Problem (CSP) optimization engine.</strong>
 </p>
