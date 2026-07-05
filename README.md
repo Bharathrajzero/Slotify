@@ -1,16 +1,4 @@
-# SLOTIFY
-
-### *Enterprise Shift-Scheduler & Conflict Resolver*
-
-An enterprise-grade, full-stack workforce scheduling platform powered by a **Constraint-Satisfaction Problem (CSP)** optimization engine. Managers can view and manually override a real-time weekly roster grid, trigger an automated **Google OR-Tools CP-SAT** solver to generate mathematically optimal, conflict-free shift assignments, and manage complex employee compliance rules. Employees get an isolated, mobile-friendly personal schedule portal.
-
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│  [!] High-Performance Monorepo Architecture                           │
-│  └─ Decoupled Next.js 15 UI Framework ──► Python CP-SAT Solver Daemon │
-└────────────────────────────────────────────────────────────────────────┘
-
-```# 🌌 Slotify — Enterprise Shift-Scheduler & Conflict Resolver
+# 🌌 Slotify — Enterprise Shift-Scheduler & Conflict Resolver
 
 <!-- Dynamic Terminal Typing Animation -->
 <p align="center">
@@ -162,6 +150,16 @@ SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
  * Daemon Launch: Pass your Supabase environment connection strings to scheduler_daemon.py to seamlessly decouple the engine from SQLite and listen to your live production cloud queue instead.
 📝 License
 Distributed under the terms of the MIT License. See LICENSE for details.
+<p align="center">
+Developed with 💜 by <strong>Bharath Raj</strong>
+
+<a href="https://github.com/bharathrajzero">GitHub</a> · <a href="https://linkedin.com">LinkedIn</a>
+
+
+<img src="https://capsule-render.vercel.app/type=waving&color=gradient&customColorList=10&height=80&section=footer" width="100%" alt="Wave Footer" />
+</p>
+
+nder the terms of the MIT License. See LICENSE for details.
 <p align="center">
 Developed with 💜 by <strong>Bharath Raj</strong>
 
