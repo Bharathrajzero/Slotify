@@ -1,5 +1,14 @@
-# Slotify-Enterprise Shift-Scheduler & Conflict Resolver
+# Slotify: Enterprise Shift-Scheduler & Conflict Resolver
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=9C86FF&center=true&vCenter=true&width=800&height=60&lines=Slotify-Enterprise;Shift-Scheduler+%26+Conflict+Resolver" alt="Slotify Header Animation" />
+</p>
+
+<p align="center">
+  <strong>An enterprise-grade, full-stack workforce scheduling platform powered by a Constraint-Satisfaction Problem (CSP) optimization engine.</strong>
+</p>
+
+---
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9C86FF&center=true&vCenter=true&width=750&height=50&lines=CP-SAT+Optimization+Engine;Constraint-Satisfaction+Problem+(CSP)+Solver;Next.js+15+%2B+Python+FastAPI+Monorepo" alt="Typing SVG" />
 </p>
