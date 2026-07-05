@@ -1,13 +1,6 @@
 # Slotify `Enterprise`
 > **Automated Workforce Scheduling Engine** | High-Performance Constraint-Satisfaction Solver (CSP)
 
-[![Engine](https://img.shields.io/badge/OR--Tools-CP--SAT-7B68EE?style=flat-square)](#)
-[![Framework](https://img.shields.io/badge/Next.js-15-000000?style=flat-square)](#)
-[![Backend](https://img.shields.io/badge/FastAPI-Python-009688?style=flat-square)](#)
-[![License](https://img.shields.io/badge/License-MIT-4CAF50?style=flat-square)](#)
-
-Slotify is an enterprise-grade, full-stack workforce scheduling platform powered by a Google OR-Tools CP-SAT optimization core. It mathematically enforces complex organizational guardrails while maximizing staff preference weights.
-
 ---
 
 <p align="center">
