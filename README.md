@@ -31,6 +31,7 @@
   <p align="center">
     <img width="100%" alt="Employee Workspace" src="https://github.com/user-attachments/assets/7ac9247f-ce7f-49c4-808d-c42b0dc8324e" style="border-radius: 8px; margin: 1%;" />
     <img width="100%" alt="Roster Generation Engine" src="https://github.com/user-attachments/assets/fc79d019-ec56-46e4-abf4-9dab7c726dd3" style="border-radius: 8px; margin: 1%;" />
+    <img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/a883837f-9bc2-467a-bcde-6c6f1daecf59" />
   </p>
 </details>
 
